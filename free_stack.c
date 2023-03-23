@@ -2,7 +2,7 @@
 /**
  * free_stack - frees a doubly linked list
  * @head: head of the stack
- */
+i */
 void free_stack(stack_t *head)
 {
 	stack_t *aux;
@@ -15,3 +15,4 @@ void free_stack(stack_t *head)
 		head = aux;
 	}
 }
+
